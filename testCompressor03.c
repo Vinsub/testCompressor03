@@ -120,7 +120,7 @@ void encode() {
 		/*printf("index = %d finalMatrix_0 = %d  codifica = ", index, finalMatrix[index][0]);
 		print_bits(finalMatrix[index][1]);*/
 	}
-	for (int index = 0; index < 256; index++) {
+	for (int index = 0; index < 256; index++) {   
 		if (dictionaryMatrix[index][2] != 0) {
 
 		}
